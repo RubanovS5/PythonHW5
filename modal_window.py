@@ -13,6 +13,7 @@ button = WebDriverWait(Chrome_driver, 10).until(
 )
 button.click()
 
+Chrome_driver.quit()
 
 Firefox_driver = webdriver.Firefox()
 Firefox_driver.maximize_window()

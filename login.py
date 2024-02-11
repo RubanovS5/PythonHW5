@@ -16,7 +16,7 @@ password.send_keys("SuperSecretPassword!")
 
 login_button = Chrome_driver.find_element(By.CSS_SELECTOR, "button[type='submit']")
 login_button.click()
-
+Chrome_driver.quit()
 
 Firefox_driver = webdriver.Firefox()
 Firefox_driver.maximize_window()

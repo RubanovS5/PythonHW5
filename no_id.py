@@ -18,7 +18,7 @@ for _ in range(3):
     EC.presence_of_element_located((By.XPATH, "//button[text()='Button with Dynamic ID']"))
 )
 button.click()
-
+Chrome_driver.quit()
 Firefox_driver = webdriver.Firefox()
 Firefox_driver.maximize_window()
 
